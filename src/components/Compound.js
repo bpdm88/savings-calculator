@@ -38,14 +38,17 @@ class Compound extends React.Component {
     handleSubmit(event) {
         event.preventDefault();
 
-        let { principal, regular, period, interest } = this.state;
+        let { principal, monthly, period, interest } = this.state;
 
         let power = 12 * period;
         let rate = interest / 100 / 12 + 1;
 
-        let first = principal * Math.pow(rate, power);
+        let futurePrincipal = principal * Math.pow(rate, power);
 
-        console.log(first);
+        let futureMonthly =
+            monthly * ((Math.pow(rate, power) - 1) / (interest / 100 / 12));
+
+        console.log(futureMonthly);
     }
 
     render() {
