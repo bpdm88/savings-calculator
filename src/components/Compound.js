@@ -6,16 +6,17 @@ class Compound extends React.Component {
         super(props);
 
         this.state = {
-            principal: null,
-            monthly: null,
-            period: null,
-            interest: null,
+            principal: "",
+            monthly: "",
+            period: "",
+            interest: "",
         };
 
         this.handleChangePrincipal = this.handleChangePrincipal.bind(this);
         this.handleChangeMonthly = this.handleChangeMonthly.bind(this);
         this.handleChangePeriod = this.handleChangePeriod.bind(this);
         this.handleChangeInterest = this.handleChangeInterest.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     handleChangePrincipal(event) {
@@ -34,11 +35,19 @@ class Compound extends React.Component {
         this.setState({ interest: event.currentTarget.value });
     }
 
+    handleSubmit(event) {
+        event.preventDefault();
+
+        let { principal } = this.state;
+
+        console.log(principal);
+    }
+
     render() {
         let { principal, regular, period, interest } = this.state;
         return (
             <section>
-                <form>
+                <form onSubmit={this.handleSubmit}>
                     <FormField
                         label="Lump Sum"
                         value={principal}
