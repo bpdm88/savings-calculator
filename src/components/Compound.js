@@ -7,16 +7,31 @@ class Compound extends React.Component {
 
         this.state = {
             principal: null,
-            regular: null,
+            monthly: null,
             period: null,
             interest: null,
         };
 
         this.handleChangePrincipal = this.handleChangePrincipal.bind(this);
+        this.handleChangeMonthly = this.handleChangeMonthly.bind(this);
+        this.handleChangePeriod = this.handleChangePeriod.bind(this);
+        this.handleChangeInterest = this.handleChangeInterest.bind(this);
     }
 
     handleChangePrincipal(event) {
         this.setState({ principal: event.currentTarget.value });
+    }
+
+    handleChangeMonthly(event) {
+        this.setState({ monthly: event.currentTarget.value });
+    }
+
+    handleChangePeriod(event) {
+        this.setState({ period: event.currentTarget.value });
+    }
+
+    handleChangeInterest(event) {
+        this.setState({ interest: event.currentTarget.value });
     }
 
     render() {
@@ -34,12 +49,19 @@ class Compound extends React.Component {
                         label="Monthly Saving"
                         value={regular}
                         type="number"
+                        handleChange={this.handleChangeMonthly}
                     />
-                    <FormField label="Duration" value={period} type="number" />
+                    <FormField
+                        label="Duration"
+                        value={period}
+                        type="number"
+                        handleChange={this.handleChangePeriod}
+                    />
                     <FormField
                         label="Annual Interest Rate"
                         value={interest}
                         type="number"
+                        handleChange={this.handleChangeInterest}
                     />
                     <button>Send</button>
                 </form>
