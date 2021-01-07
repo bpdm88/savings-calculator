@@ -1,0 +1,28 @@
+@font-face {
+    font-family: cabin-bold;
+    src: url(../assets/fonts/Cabin-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(../assets/fonts/Nunito-Light.ttf) format("truetype");
+}
+
+.heading--alpha {
+    font-family: cabin-bold, sans-serif;
+    font-size: var(--heading-alpha);
+}
+
+.heading--bravo {
+    font-family: nunito;
+    font-size: var(--heading-bravo);
+}
+
+.heading-charlie {
+}
+
+p,
+label {
+    font-family: nunito, sans-serif;
+    font-size: var(--standard);
+}

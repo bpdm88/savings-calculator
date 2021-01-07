@@ -1,0 +1,29 @@
+:root {
+    /* colours */
+
+    --white: rgb(247, 247, 245);
+
+    /* typography */
+
+    --heading-alpha: 60px;
+
+    --heading-bravo: 26px;
+
+    --standard: 16px;
+}
+
+@media screen and (max-width: 960px) {
+    :root {
+        --heading-alpha: 50px;
+        --heading-bravo: 22px;
+        --standard: 14px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    :root {
+        --heading-alpha: 40px;
+        --heading-bravo: 18px;
+        --standard: 12px;
+    }
+}

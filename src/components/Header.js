@@ -1,7 +1,8 @@
 const Header = () => {
     return (
         <header>
-            <h1>Savings Calculator</h1>
+            <h1 className="heading--alpha">Savings Calculator</h1>
+            <p>What's your savings goal</p>
         </header>
     );
 };

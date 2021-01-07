@@ -1,7 +1,7 @@
 const Detail = () => {
     return (
         <div>
-            <h2>
+            <h2 className="heading--bravo">
                 Work out how a lump sum or regular monthly savings would grow
             </h2>
             <p>1. Enter a lump sum and / or a monthly savings amount.</p>
