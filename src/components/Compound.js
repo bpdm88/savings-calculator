@@ -10,6 +10,7 @@ class Compound extends React.Component {
             monthly: "",
             period: "",
             interest: "",
+            future: "",
         };
 
         this.handleChangePrincipal = this.handleChangePrincipal.bind(this);
@@ -44,15 +45,21 @@ class Compound extends React.Component {
         let rate = interest / 100 / 12 + 1;
 
         let futurePrincipal = principal * Math.pow(rate, power);
-
         let futureMonthly =
             monthly * ((Math.pow(rate, power) - 1) / (interest / 100 / 12));
 
-        console.log(futureMonthly);
+        let total = futureMonthly + futurePrincipal;
+
+        let converted = new Intl.NumberFormat("en-GB", {
+            style: "currency",
+            currency: "GBP",
+        }).format(total);
+
+        this.setState({ future: converted });
     }
 
     render() {
-        let { principal, regular, period, interest } = this.state;
+        let { principal, regular, period, interest, future } = this.state;
         return (
             <section>
                 <form onSubmit={this.handleSubmit}>
@@ -82,6 +89,9 @@ class Compound extends React.Component {
                     />
                     <button>Send</button>
                 </form>
+                <div>
+                    <h1>{future}</h1>
+                </div>
             </section>
         );
     }
