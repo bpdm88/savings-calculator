@@ -1,9 +1,10 @@
+import Header from "./components/Header";
 import Compound from "./components/Compound";
 
 function App() {
     return (
         <>
-            <h1>Hello</h1>
+            <Header />
             <Compound />
         </>
     );
