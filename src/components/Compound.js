@@ -1,5 +1,6 @@
 import React from "react";
 import FormField from "./Formfield";
+import Detail from "./Detail";
 
 class Compound extends React.Component {
     constructor(props) {
@@ -62,6 +63,7 @@ class Compound extends React.Component {
         let { principal, regular, period, interest, future } = this.state;
         return (
             <section>
+                <Detail />
                 <form onSubmit={this.handleSubmit}>
                     <FormField
                         label="Lump Sum"
