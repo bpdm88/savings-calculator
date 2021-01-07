@@ -1,7 +1,10 @@
 :root {
     /* colours */
 
-    --white: rgb(247, 247, 245);
+    --white: rgb(255, 255, 255);
+    --grey: rgb(243, 244, 245);
+    --green: rgba(66, 219, 173);
+    --charcoal: rgb(70, 74, 77);
 
     /* typography */
 
@@ -9,11 +12,13 @@
 
     --heading-bravo: 26px;
 
-    --standard: 16px;
+    --heading-charlie: 24px;
+
+    --standard: 18px;
 
     /* spacing */
 
-    --border-spacing: 20px;
+    --border-spacing: 15px;
     --font-spacing: 12px;
 }
 
@@ -21,8 +26,9 @@
     :root {
         --heading-alpha: 50px;
         --heading-bravo: 22px;
-        --standard: 14px;
-        --border-spacing: 15px;
+        --heading-charlie: 20px;
+        --standard: 16px;
+        --border-spacing: 10px;
         --font-spacing: 10px;
     }
 }
@@ -31,8 +37,9 @@
     :root {
         --heading-alpha: 40px;
         --heading-bravo: 18px;
-        --standard: 12px;
-        --border-spacing: 10px;
+        --heading-charlie: 16px;
+        --standard: 14px;
+        --border-spacing: 5px;
         --font-spacing: 8px;
     }
 }

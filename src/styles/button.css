@@ -1,0 +1,11 @@
+button {
+    margin: var(--border-spacing);
+    width: 100px;
+    height: 50px;
+    background-color: var(--green);
+    border: 0;
+    border-radius: 5px;
+    font-family: cabin;
+    font-weight: bold;
+    color: var(--white);
+}

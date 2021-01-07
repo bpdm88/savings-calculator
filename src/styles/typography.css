@@ -12,20 +12,34 @@
     font-family: cabin-bold, sans-serif;
     font-size: var(--heading-alpha);
     padding: var(--font-spacing);
+    color: var(--white);
 }
 
 .heading--bravo {
     font-family: nunito, sans-serif;
     font-size: var(--heading-bravo);
     padding: var(--font-spacing);
+    color: var(--white);
 }
 
 .heading-charlie {
+    font-family: cabin-bold, sans-serif;
+    font-size: var(--heading-charlie);
+    padding: var(--font-spacing);
+    color: var(--green);
 }
 
-p,
+p {
+    font-family: nunito, sans-serif;
+    font-size: var(--standard);
+    padding: var(--font-spacing);
+    color: var(--white);
+    font-weight: bold;
+}
+
 label {
     font-family: nunito, sans-serif;
     font-size: var(--standard);
     padding: var(--font-spacing);
+    font-weight: bold;
 }

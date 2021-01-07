@@ -65,6 +65,9 @@ class Compound extends React.Component {
             <section className="calculator">
                 <Detail />
                 <form onSubmit={this.handleSubmit}>
+                    <h3 className="heading-charlie">
+                        Whats Your Saving Goal ?
+                    </h3>
                     <FormField
                         label="Lump Sum"
                         value={principal}
@@ -95,7 +98,7 @@ class Compound extends React.Component {
                     />
                     <button>Send</button>
                 </form>
-                <div>
+                <div className="result-box">
                     <h1>{future}</h1>
                 </div>
             </section>
