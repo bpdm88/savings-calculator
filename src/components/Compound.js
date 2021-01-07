@@ -96,10 +96,17 @@ class Compound extends React.Component {
                         handleChange={this.handleChangeInterest}
                         placeholder="%"
                     />
-                    <button>Send</button>
+                    <button>Calculate</button>
                 </form>
                 <div className="result-box">
-                    <h1>{future}</h1>
+                    <div className="result">
+                        <p>Your future savings value:</p>
+                        <h4 className="heading-charlie">{future}</h4>
+                    </div>
+                    <p className="heading-note">
+                        Calculator assumes interest is calculated and compounded
+                        monthly.
+                    </p>
                 </div>
             </section>
         );

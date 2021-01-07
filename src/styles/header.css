@@ -2,4 +2,15 @@ header {
     min-height: 0px;
     margin: var(--border-spacing);
     padding: var(--border-spacing);
+    display: flex;
+}
+
+img {
+    padding: var(--border-spacing);
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        width: 300px;
+    }
 }

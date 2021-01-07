@@ -19,7 +19,7 @@
     font-family: nunito, sans-serif;
     font-size: var(--heading-bravo);
     padding: var(--font-spacing);
-    color: var(--white);
+    color: var(--green);
 }
 
 .heading-charlie {
@@ -42,4 +42,11 @@ label {
     font-size: var(--standard);
     padding: var(--font-spacing);
     font-weight: bold;
+}
+
+.heading-note {
+    font-family: nunito;
+    font-size: var(--heading-note);
+    font-style: italic;
+    color: var(--black);
 }

@@ -18,7 +18,20 @@ input {
 }
 
 @media screen and (max-width: 960px) {
+    form {
+        width: 300px;
+    }
     label {
         display: block;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    form {
+        width: min-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 }

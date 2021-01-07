@@ -5,20 +5,19 @@
     --grey: rgb(243, 244, 245);
     --green: rgba(66, 219, 173);
     --charcoal: rgb(70, 74, 77);
+    --black: rgb(47, 48, 48);
 
     /* typography */
 
     --heading-alpha: 60px;
-
     --heading-bravo: 26px;
-
     --heading-charlie: 24px;
-
+    --heading-note: 16px;
     --standard: 18px;
 
     /* spacing */
 
-    --border-spacing: 15px;
+    --border-spacing: 20px;
     --font-spacing: 12px;
 }
 
@@ -27,19 +26,21 @@
         --heading-alpha: 50px;
         --heading-bravo: 22px;
         --heading-charlie: 20px;
+        --heading-note: 14px;
         --standard: 16px;
-        --border-spacing: 10px;
+        --border-spacing: 15px;
         --font-spacing: 10px;
     }
 }
 
 @media screen and (max-width: 750px) {
     :root {
-        --heading-alpha: 40px;
+        --heading-alpha: 35px;
         --heading-bravo: 18px;
         --heading-charlie: 16px;
+        --heading-note: 12px;
         --standard: 14px;
-        --border-spacing: 5px;
+        --border-spacing: 10px;
         --font-spacing: 8px;
     }
 }
