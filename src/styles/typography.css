@@ -1,0 +1,52 @@
+@font-face {
+    font-family: cabin-bold;
+    src: url(../assets/fonts/Cabin-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(../assets/fonts/Nunito-Light.ttf) format("truetype");
+}
+
+.heading--alpha {
+    font-family: cabin-bold, sans-serif;
+    font-size: var(--heading-alpha);
+    padding: var(--font-spacing);
+    color: var(--white);
+}
+
+.heading--bravo {
+    font-family: nunito, sans-serif;
+    font-size: var(--heading-bravo);
+    padding: var(--font-spacing);
+    color: var(--green);
+}
+
+.heading-charlie {
+    font-family: cabin-bold, sans-serif;
+    font-size: var(--heading-charlie);
+    padding: var(--font-spacing);
+    color: var(--green);
+}
+
+p {
+    font-family: nunito, sans-serif;
+    font-size: var(--standard);
+    padding: var(--font-spacing);
+    color: var(--white);
+    font-weight: bold;
+}
+
+label {
+    font-family: nunito, sans-serif;
+    font-size: var(--standard);
+    padding: var(--font-spacing);
+    font-weight: bold;
+}
+
+.heading-note {
+    font-family: nunito;
+    font-size: var(--heading-note);
+    font-style: italic;
+    color: var(--black);
+}
