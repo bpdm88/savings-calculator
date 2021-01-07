@@ -11,11 +11,13 @@
 .heading--alpha {
     font-family: cabin-bold, sans-serif;
     font-size: var(--heading-alpha);
+    padding: var(--font-spacing);
 }
 
 .heading--bravo {
-    font-family: nunito;
+    font-family: nunito, sans-serif;
     font-size: var(--heading-bravo);
+    padding: var(--font-spacing);
 }
 
 .heading-charlie {
@@ -25,4 +27,5 @@ p,
 label {
     font-family: nunito, sans-serif;
     font-size: var(--standard);
+    padding: var(--font-spacing);
 }

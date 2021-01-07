@@ -1,0 +1,13 @@
+form {
+    margin-top: var(--border-spacing);
+    margin-bottom: var(--border-spacing);
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+}
+
+input {
+    font-family: nunito, sans-serif;
+}

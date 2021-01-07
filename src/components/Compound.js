@@ -62,7 +62,7 @@ class Compound extends React.Component {
     render() {
         let { principal, regular, period, interest, future } = this.state;
         return (
-            <section>
+            <section className="calculator">
                 <Detail />
                 <form onSubmit={this.handleSubmit}>
                     <FormField
@@ -70,24 +70,28 @@ class Compound extends React.Component {
                         value={principal}
                         type="number"
                         handleChange={this.handleChangePrincipal}
+                        placeholder="£"
                     />
                     <FormField
                         label="Monthly Saving"
                         value={regular}
                         type="number"
                         handleChange={this.handleChangeMonthly}
+                        placeholder="£"
                     />
                     <FormField
                         label="Duration"
                         value={period}
                         type="number"
                         handleChange={this.handleChangePeriod}
+                        placeholder="Years"
                     />
                     <FormField
                         label="Annual Interest Rate"
                         value={interest}
                         type="number"
                         handleChange={this.handleChangeInterest}
+                        placeholder="%"
                     />
                     <button>Send</button>
                 </form>

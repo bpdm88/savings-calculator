@@ -1,8 +1,13 @@
-const FormField = ({ label, value, type, handleChange }) => {
+const FormField = ({ label, value, type, handleChange, placeholder }) => {
     return (
         <div>
             <label>{label}</label>
-            <input value={value} type={type} onChange={handleChange} />
+            <input
+                value={value}
+                type={type}
+                onChange={handleChange}
+                placeholder={placeholder}
+            />
         </div>
     );
 };

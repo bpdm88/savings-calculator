@@ -2,3 +2,6 @@
 @import "./settings.css";
 @import "./typography.css";
 @import "./wrapper.css";
+@import "./header.css";
+@import "./compound.css";
+@import "./form.css";
