@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/savings-calculator/static/css/main.cdb57be0.chunk.css",
+    "main.js": "/savings-calculator/static/js/main.77652be0.chunk.js",
+    "main.js.map": "/savings-calculator/static/js/main.77652be0.chunk.js.map",
+    "runtime-main.js": "/savings-calculator/static/js/runtime-main.13b05208.js",
+    "runtime-main.js.map": "/savings-calculator/static/js/runtime-main.13b05208.js.map",
+    "static/js/2.8539505b.chunk.js": "/savings-calculator/static/js/2.8539505b.chunk.js",
+    "static/js/2.8539505b.chunk.js.map": "/savings-calculator/static/js/2.8539505b.chunk.js.map",
+    "static/js/3.4b1c043b.chunk.js": "/savings-calculator/static/js/3.4b1c043b.chunk.js",
+    "static/js/3.4b1c043b.chunk.js.map": "/savings-calculator/static/js/3.4b1c043b.chunk.js.map",
+    "index.html": "/savings-calculator/index.html",
+    "static/css/main.cdb57be0.chunk.css.map": "/savings-calculator/static/css/main.cdb57be0.chunk.css.map",
+    "static/js/2.8539505b.chunk.js.LICENSE.txt": "/savings-calculator/static/js/2.8539505b.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/savings-calculator/static/media/Nunito-Light.abdadce6.ttf",
+    "static/media/sprout.8b1f0232.svg": "/savings-calculator/static/media/sprout.8b1f0232.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13b05208.js",
+    "static/js/2.8539505b.chunk.js",
+    "static/css/main.cdb57be0.chunk.css",
+    "static/js/main.77652be0.chunk.js"
+  ]
+}
