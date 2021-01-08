@@ -1,3 +1,9 @@
+# Savings Calculator
+
+Savings Calculator lets users calculate what their lump sum and or monthly saving amount might grow to over a set period and interest rate. 
+
+I am currently looking at making the project larger with additional functionality and potentially changing the code to use hooks instead of classes.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
